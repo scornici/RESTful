@@ -1,0 +1,22 @@
+{
+	"name": "scornici/php-rest-api",
+	"description": "Laboratorul 3, IDWeb",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Ivan Scornici",
+			"email": "ivan.scornici@isa.utm.md"
+		}
+	],
+	"require": {
+		"vlucas/phpdotenv": "^5.3",
+      "ext-pdo": "*",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Src\\": "src/"
+		}
+	}
+}
